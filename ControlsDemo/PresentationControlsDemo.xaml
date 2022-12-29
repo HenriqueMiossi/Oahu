@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsDemo.PresentationControlsDemo"
+             Title="PresentationControlsDemo">
+    <VerticalStackLayout>
+        <BoxView BackgroundColor="Gray"
+                 HeightRequest="200"/>
+
+        <Label Text="Xamarin"
+               TextColor="White"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"/>
+
+        <Ellipse Fill="DarkRed"
+                 Stroke="DarkGreen"
+                 StrokeThickness="10"
+                 HeightRequest="200"
+                 HorizontalOptions="Center"
+                 WidthRequest="200"/>
+    </VerticalStackLayout>
+</ContentPage>
